@@ -13,7 +13,9 @@ export const authUser = async (req, res) => {
         if(password != users.password) return res.send("Password is incorrect")
         let tokens = jwtTokens(users);
         res.cookie('refresh_token', tokens.refreshToken,{httpOnly: true})
-        res.json (req.cookies.refresh_token) 
+        res.send ({
+            token: tokens.accessToken
+        }) 
     }catch (error){
         return res.send({message: error.message});
     }
