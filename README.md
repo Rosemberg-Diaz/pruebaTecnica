@@ -1,6 +1,6 @@
 # pruebaTecnica
 
-* Base de datos: los scripts se creacion van a estar en la carpeta scripts
+* Base de datos: los scripts de creacion van a estar en la carpeta scripts.
 				
 ![image](https://user-images.githubusercontent.com/63666604/199888246-a5d8c5c3-48b0-4508-8883-a6840f96cf38.png)
 
